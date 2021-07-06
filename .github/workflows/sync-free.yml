@@ -26,7 +26,7 @@ jobs:
         if: env.PAT
         with:
           source_repo: "https://github.com/panghu999/panghu.git"
-          source_branch: "main"
+          source_branch: "master"
           destination_branch: "master"
           github_token: ${{ secrets.PAT }}
       # 我自己同步到gitee使用，其他人可忽略
